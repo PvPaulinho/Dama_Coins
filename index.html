@@ -1,125 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="Imagens/dama logo.jpg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dama Coins - Coins para FIFA</title>
 
-    <style>
-
-        body{
-            margin: 0;
-            padding: 0;
-        }
-
-        .nav{
-            overflow: hidden;
-            margin: auto;
-            font-size: 20px;
-            background: black;    
-            border: 2px;
-            border-style: solid;
-            border-color: goldenrod;
-        }
-
-        #imgLogo{
-            height: 70px;
-            width: 200px;
-        }
-
-        .logo{
-            float: left;
-            height: 70px;
-            width: 200px;
-        }
-
-        .cnav{
-            padding: 10px;
-            padding-right: 20px;
-        }
-
-        .menu{
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            float: right;
-            padding-top: 13px;
-            font-weight: 600;
-        }
-
-        .liMenu{
-            float: right;
-            color: goldenrod;
-            margin-right: 40px;
-        }
-
-        .botaoWhats{
-            float: right;
-            background: #29A71A;
-            font-size: 17px;
-            padding-top: 4px;
-            font-weight: 550;
-        }
-
-        #wb1{
-            float: left;
-        }
-
-        #wb2{
-            float: right;
-            color: white;
-            text-decoration: none;
-            padding-top: 8px;
-            padding-right: 5px;
-        }
-
-        .logowhatsappmenu{
-            width: 35px;
-            margin: auto;
-            padding-right: 5px;
-        }
-
-        .text-decorator-none{
-            text-decoration: none;
-        }
-
-
-        
-        @media screen and (max-width: 1100px) {
-            .liMenu {
-                margin-right: 30px;
-            }
-        }
-
-        @media screen and (max-width: 1050px) {
-            .liMenu {
-                margin-right: 20px;
-            }
-        }
-
-        @media screen and (max-width: 1000px) {
-            .liMenu {
-                margin-right: 10px;
-            }
-        }
-
-
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
-    
-    <nav class="nav">
-        
-        <div class="logo">
-            <a href="#imgLogo">
-                <img id="imgLogo" src="Imagens/dama coins.jpeg" alt="Logo da Dama Coins">
-            </a>
-        </div>
 
-        <div class="cnav">
+<body>
+
+    <header>
+
+        <nav>
+
+            <a class="logo" href="/">Dama Coins</a>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="/">Sobre Nós</a></li>
+                <li><a href="/">Como funciona</a></li>
+                <li><a href="/">Comprar Coins</a></li>
+                <li><a href="/">Clientes</a></li>
+            </ul>
+
             <a href="https://api.whatsapp.com/send?phone=553193772511&text=Ol%C3%A1%20Luis%2C%20eu%20estava%20navegando%20no%20seu%20site%20e%20estou%20com%20algumas%20d%C3%BAvidas%2C%20pode%20me%20ajudar%3F">
                 <button  class="botaoWhats">
                     <div id="wb1">
@@ -128,16 +40,15 @@
                     <div id="wb2">Conversar com Vendedor</div>
                 </button>
             </a>
-            
-            <ul class="menu">
-                <li class="liMenu">Sobre Nós</li>
-                <li class="liMenu">Como funciona</li>
-                <li class="liMenu">Comprar Coins</li>
-                <li class="liMenu">Clientes</li>
-            </ul>
-            
-        </div>
-    </nav>
+
+        </nav>
+
+    </header>
+
+    <main></main>
+
+    <script src="mobileNavbar.js"></script>
 
 </body>
+
 </html>
