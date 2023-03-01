@@ -115,7 +115,7 @@
 
   
   .botaoWhats{
-    float: right;
+    display: flex;
     background: #29A71A;
     font-size: 13px;
     padding-top: 4px;
@@ -123,11 +123,11 @@
 }
 
 #wb1{
-    float: left;
+    display: left;
 }
 
 #wb2{
-    float: right;
+    display: right;
     color: white;
     text-decoration: none;
     padding-top: 5px;
@@ -139,4 +139,14 @@
     margin: auto;
     padding-right: 5px;
     padding-left: 5px;
+}
+
+
+@media (max-width: 420px) {
+  #wb1 {
+    display: center;
+  }
+  #wb2 {
+    display: none;
+  }
 }
