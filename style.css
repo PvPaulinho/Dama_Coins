@@ -1,3 +1,6 @@
+
+/* CSS do NavBar */
+
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +32,8 @@
   }
   
   main {
-    background: url("/Imagens/dama_coins.jpeg") no-repeat center center;
+    /* background: url("/Imagens/dama_coins.jpeg") no-repeat center center; */
+    background-color: goldenrod;
     background-size: cover;
     height: 90vh;
   }
@@ -110,10 +114,6 @@
     transform: rotate(45deg) translate(-5px, -7px);
   }
 
-
-
-
-  
   .botaoWhats{
     display: flex;
     background: #29A71A;
@@ -141,7 +141,6 @@
     padding-left: 5px;
 }
 
-
 @media (max-width: 420px) {
   #wb1 {
     display: center;
@@ -149,4 +148,31 @@
   #wb2 {
     display: none;
   }
+}
+
+/* CSS do Main */
+
+.box_1{
+  display: flex;
+  height: 70vh;
+  background-image: url(Imagens/box11.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  /* background-size: contain; */
+}
+
+.box_1-1 {
+  display: left;
+  width: 50vw;
+  /* background-image: url("/Imagens/imgb_1-1.jpeg");
+  background-size: 50vw 100%; */
+
+}
+
+.box_1-2 {
+  display: right;
+  width: 50vw;
+  /* background: url("/Imagens/imgb_1-2.png");
+  background-size: 50vw 100%; */
 }
