@@ -165,9 +165,9 @@
 .box_1-1 {
   display: left;
   width: 50vw;
-  /* background-image: url("/Imagens/imgb_1-1.jpeg");
-  background-size: 50vw 100%; */
-
+  color: white;
+  text-align: center;
+  padding: 25px;
 }
 
 .box_1-2 {
@@ -175,4 +175,71 @@
   width: 50vw;
   /* background: url("/Imagens/imgb_1-2.png");
   background-size: 50vw 100%; */
+}
+
+.ebox_1-1 {
+  color: #23232e;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 25px;
+}
+
+.dama {
+  color: goldenrod;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding: 5px;
+  font-size: 70px;
+}
+
+.ebox_1-2 {
+  padding-bottom: 10px;
+}
+
+.coins {
+  color: #c0c0c0;
+  padding: 0;
+}
+
+.btc {
+    align-items: center;
+}
+
+.btcompra {
+  background-color: #c0c0c0;
+  display: flex;
+  color: #23232e;
+  border-color: goldenrod;
+}
+
+.btc1 {
+  display: left;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  padding-top: 14px;
+}
+
+.btc2 {
+  display: right;
+}
+
+#imgcoins {
+  height: 50px;
+}
+
+@media (max-width: 590px) {
+  .box_1-1 {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 422px) {
+  .box_1-1 {
+    width: 100vw;
+  }
 }
