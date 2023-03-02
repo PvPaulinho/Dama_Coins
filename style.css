@@ -120,126 +120,165 @@
     font-size: 13px;
     padding-top: 4px;
     border: 0;
-}
-
-#wb1{
-    display: left;
-}
-
-#wb2{
-    display: right;
-    color: white;
-    text-decoration: none;
-    padding-top: 5px;
-    padding-right: 5px;
-}
-
-.logowhatsappmenu{
-    width: 25px;
-    margin: auto;
-    padding-right: 5px;
-    padding-left: 5px;
-}
-
-@media (max-width: 420px) {
-  #wb1 {
-    display: center;
   }
-  #wb2 {
-    display: none;
+
+  #wb1{
+      display: left;
   }
-}
+
+  #wb2{
+      display: right;
+      color: white;
+      text-decoration: none;
+      padding-top: 5px;
+      padding-right: 5px;
+  }
+
+  .logowhatsappmenu{
+      width: 25px;
+      margin: auto;
+      padding-right: 5px;
+      padding-left: 5px;
+  }
+
+  @media (max-width: 420px) {
+    #wb1 {
+      display: center;
+    }
+    #wb2 {
+      display: none;
+    }
+  }
+
+
 
 /* CSS do Main */
 
-.box_1{
-  display: flex;
-  height: 70vh;
-  background-image: url(Imagens/box11.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right center;
-  /* background-size: contain; */
-}
 
-.box_1-1 {
-  display: left;
-  width: 50vw;
-  color: white;
-  text-align: center;
-  padding: 25px;
-}
+  /* CSS do Box 1 */
+    .box_1{
+      display: flex;
+      height: 70vh;
+      background-image: url(Imagens/box1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right center;
+      /* background-size: contain; */
+    }
 
-.box_1-2 {
-  display: right;
-  width: 50vw;
-  /* background: url("/Imagens/imgb_1-2.png");
-  background-size: 50vw 100%; */
-}
+    .box_1-1 {
+      display: left;
+      width: 50vw;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
 
-.ebox_1-1 {
-  color: #23232e;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-size: 25px;
-}
+    .box_1-2 {
+      display: right;
+      width: 50vw;
+      /* background: url("/Imagens/imgb_1-2.png");
+      background-size: 50vw 100%; */
+    }
 
-.dama {
-  color: goldenrod;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  padding: 5px;
-  font-size: 70px;
-}
+    .ebox_1-1 {
+      color: #23232e;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: 25px;
+    }
 
-.ebox_1-2 {
-  padding-bottom: 10px;
-}
+    .dama {
+      color: goldenrod;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      padding: 5px;
+      font-size: 70px;
+    }
 
-.coins {
-  color: #c0c0c0;
-  padding: 0;
-}
+    .ebox_1-2 {
+      padding-bottom: 10px;
+    }
 
-.btc {
-    align-items: center;
-}
+    .coins {
+      color: #c0c0c0;
+      padding: 0;
+    }
 
-.btcompra {
-  background-color: #c0c0c0;
-  display: flex;
-  color: #23232e;
-  border-color: goldenrod;
-}
+    .botaoCompra {
+        display: flex;
+    }
 
-.btc1 {
-  display: left;
-  text-align: center;
-  font-size: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 10px;
-  padding-top: 14px;
-}
+    .linkCompra {
+      margin: auto;
+    }
 
-.btc2 {
-  display: right;
-}
+    .btcompra {
+      background-color: #c0c0c0;
+      display: flex;
+      color: #23232e;
+      border-color: goldenrod;
+    }
 
-#imgcoins {
-  height: 50px;
-}
+    .btc1 {
+      display: left;
+      text-align: center;
+      font-size: 15px;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 10px;
+      padding-top: 17px;
+    }
 
-@media (max-width: 590px) {
-  .box_1-1 {
-    width: 70vw;
-  }
-}
+    .btc2 {
+      display: right;
+    }
 
-@media (max-width: 422px) {
-  .box_1-1 {
-    width: 100vw;
-  }
-}
+    #imgcoins {
+      height: 50px;
+    }
+
+    @media (max-width: 590px) {
+      .box_1-1 {
+        width: 70vw;
+      }
+    }
+
+    @media (max-width: 422px) {
+      .box_1-1 {
+        width: 100vw;
+      }
+    }
+
+    @media (max-width: 373px) {
+      .box_1-1 {
+        padding: 10px;
+        padding-top: 25px;
+      }
+    }
+
+    @media (max-width: 343px) {
+      .box_1-1 {
+        padding: 10px;
+      }
+    }
+
+    @media (max-width: 315px) {
+      .ebox_1-2 {
+        padding-bottom: 5px;
+      }
+    }
+
+
+    /* --------- Mudar imagem de background -------------- */
+    /* @media (max-width: 565px) {
+      .box_1 {
+        background-image: url(Imagens/dama_coins.jpeg);
+      }
+    } */
+
+
+
+  /* CSS do Box 2 */
