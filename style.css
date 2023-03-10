@@ -321,5 +321,83 @@
   /* CSS do Box 2 */
 
   .box_2 {
-    height: 500px;
+    display: flex;
+    background: #23232e;
+  }
+
+  .box_2-1 {
+    display: left;
+    width: 70vw;
+    text-align: center;
+    padding: 25px;
+    padding-right: 5px;
+  }
+
+  .titulo-b2 {
+    background-image: linear-gradient(125deg, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    padding: 10px;
+  }
+
+  .p-b2 {
+    background-image: linear-gradient(125deg, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 19px;
+    text-align: start;
+    padding: 3px;
+  }
+
+  .box_2-2 {
+    display: flex;
+    align-items: center;
+    font-size: 250px;
+    margin: auto;
+    padding: 5px;
+    font-weight: 800;
+  }
+
+  #box_2-2 {
+    display: inline-flex;
+  }
+
+  #D {
+    display: left;
+    background-image: linear-gradient(125deg, #7e5c0f, #7e5c0f, #f9e36f, #7e5c0f, #7e5c0f, #f9e36f, #7e5c0f, #7e5c0f, #f9e36f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  #C {
+    display: right;
+    background-image: linear-gradient(125deg, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  @media (max-width: 800px) {
+    .box_2-2 {
+      font-size: 200px;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .box_2-2 {
+      font-size: 150px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .box_2-1 {
+      width: 100vw;
+    }
+    .box_2 {
+      display: inline;
+    }
   }
