@@ -188,6 +188,10 @@
       padding: 25px;
     }
 
+    .ebox_1-1-1 {
+      font-size: 17px;
+    }
+
     .box_1-2 {
       display: right;
       width: 50vw;
@@ -343,7 +347,8 @@
   }
 
   .p-b2 {
-    background-image: linear-gradient(125deg, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8);
+    /* background-image: linear-gradient(125deg, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8); */
+    background-color: #e8e8e8;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
