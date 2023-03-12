@@ -39,8 +39,19 @@
   
   .logo {
     font-weight: bold;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-size: 24px;
+
+
+    background-image: linear-gradient(125deg, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px; */
     font-size: 24px;
 
 
@@ -215,6 +226,14 @@
       padding-top: 10px;
     }
 
+    .ebox_1-1-1 {
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      color: #23232e;
+    }
+
     .box_1-2 {
       display: right;
       width: 50vw;
@@ -359,7 +378,7 @@
 
   .box_2-1 {
     display: left;
-    width: 70vw;
+    width: 50vw;
     text-align: center;
     padding: 25px;
     padding-right: 5px;
@@ -414,6 +433,12 @@
     -webkit-text-fill-color: transparent;
   }
 
+  @media (max-width: 900px) {
+    .box_2-1{
+      width: 70vw;
+    }
+  }
+
   @media (max-width: 800px) {
     .box_2-2 {
       font-size: 200px;
@@ -442,5 +467,7 @@
     .box_2-2 {
       width: auto;
       background-color: #23232e;
+      font-size: 200px;
     }
+
   }
