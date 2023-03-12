@@ -31,9 +31,19 @@
   }
   
   .logo {
-    font-size: 24px;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-size: 24px;
+
+
+    background-image: linear-gradient(125deg, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px; */
   }
   
   nav {
@@ -189,7 +199,11 @@
     }
 
     .ebox_1-1-1 {
-      font-size: 17px;
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      color: #23232e;
     }
 
     .box_1-2 {
@@ -215,7 +229,8 @@
       padding-bottom: 25px;
       font-size: 90px;
       line-height: 60px;
-
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #484848;
       background-image: linear-gradient(125deg, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f);
       background-clip: text;
       -webkit-background-clip: text;
