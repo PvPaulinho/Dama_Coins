@@ -6,8 +6,15 @@
     padding: 0;
   }
 
+  .gradient_blue {
+    background-image: linear-gradient(125deg, #16025c, #333cb9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   .gradient_gold {
-    background-image: linear-gradient(125deg, #7e5c0f, #f9e36f);
+    background-image: linear-gradient(125deg, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -31,9 +38,19 @@
   }
   
   .logo {
-    font-size: 24px;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-size: 24px;
+
+
+    background-image: linear-gradient(125deg, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px; */
   }
   
   nav {
@@ -47,8 +64,8 @@
   
   main {
     /* background: url("/Imagens/dama_coins.jpeg") no-repeat center center; */
-    background-color: goldenrod;
-    background-size: cover;
+    /* background-color: goldenrod;
+    background-size: cover; */
     /* height: 90vh; */
   }
   
@@ -186,6 +203,16 @@
       color: white;
       text-align: center;
       padding: 25px;
+      padding-top: 35px;
+    }
+
+    .ebox_1-1-1 {
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      color: #23232e;
+      padding-top: 10px;
     }
 
     .box_1-2 {
@@ -207,11 +234,12 @@
       font-weight: bold;
       text-transform: uppercase;
       letter-spacing: 4px;
-      padding-top: 25px;
-      padding-bottom: 25px;
+      padding-top: 30px;
+      padding-bottom: 30px;
       font-size: 90px;
       line-height: 60px;
-
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #362702;
       background-image: linear-gradient(125deg, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f, #7e5c0f, #f9e36f);
       background-clip: text;
       -webkit-background-clip: text;
@@ -219,12 +247,15 @@
     }
 
     .ebox_1-2 {
-      padding-bottom: 10px;
+      padding-bottom: 15px;
     }
 
     .coins {
       padding: 0;
       font-size: 70px;
+
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #484848;
 
       background-image: linear-gradient(125deg, #484848, #e8e8e8, #484848, #e8e8e8, #484848, #e8e8e8, #484848, #e8e8e8, #484848, #e8e8e8, #484848, #e8e8e8, #484848, #e8e8e8, #484848, #e8e8e8, #484848, #e8e8e8, #484848, #e8e8e8, #484848, #e8e8e8, #484848, #e8e8e8);
       background-clip: text;
@@ -280,20 +311,21 @@
     @media (max-width: 373px) {
       .box_1-1 {
         padding: 10px;
-        padding-top: 25px;
+        padding-top: 30px;
       }
     }
 
     @media (max-width: 343px) {
       .box_1-1 {
         padding: 10px;
+        padding-top: 30px;
       }
     }
 
     @media (max-width: 315px) {
-      .ebox_1-2 {
+      /* .ebox_1-2 {
         padding-bottom: 5px;
-      }
+      } */
       .box_1-1 {
         padding-left: 0px;
       }
@@ -343,7 +375,8 @@
   }
 
   .p-b2 {
-    background-image: linear-gradient(125deg, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8);
+    /* background-image: linear-gradient(125deg, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8, #5e5a5a, #e8e8e8); */
+    background-color: #e8e8e8;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -395,9 +428,19 @@
 
   @media (max-width: 550px) {
     .box_2-1 {
-      width: 100vw;
+      width: auto;
+      background-color: #23232e;
     }
     .box_2 {
       display: inline;
+    }
+    
+    #box_2-2 {
+      margin: auto;
+    }
+
+    .box_2-2 {
+      width: auto;
+      background-color: #23232e;
     }
   }
