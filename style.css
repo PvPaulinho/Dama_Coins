@@ -26,6 +26,11 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  nav {
+    position: fixed;
+    width: 100%;
+  }
   
   a {
     color: goldenrod;
@@ -98,7 +103,8 @@
   .mobile-menu div {
     width: 32px;
     height: 2px;
-    background: #fff;
+    /* background: #fff; */
+    background-image: linear-gradient(155deg, #616161, #e8e8e8, #616161, #e8e8e8, #616161, #e8e8e8);
     margin: 8px;
     transition: 0.3s;
   }
@@ -361,11 +367,11 @@
 
 
     /* --------- Mudar imagem de background -------------- */
-    /* @media (max-width: 565px) {
+    @media (max-width: 565px) {
       .box_1 {
-        background-image: url(Imagens/dama_coins.jpeg);
+        background-image: url(Imagens/box1_2.png);
       }
-    } */
+    }
 
 
 
@@ -471,3 +477,8 @@
     }
 
   }
+
+
+
+  /* CSS do Box 3 */
+
