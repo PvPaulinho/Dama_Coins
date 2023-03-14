@@ -78,12 +78,12 @@
     height: 10vh;
   }
   
-  main {
-    /* background: url("/Imagens/dama_coins.jpeg") no-repeat center center; */
-    /* background-color: goldenrod;
-    background-size: cover; */
-    /* height: 90vh; */
-  }
+  /* main {
+    background: url("/Imagens/dama_coins.jpeg") no-repeat center center;
+    background-color: goldenrod;
+    background-size: cover;
+    height: 90vh;
+  } */
   
   .nav-list {
     list-style: none;
@@ -205,6 +205,7 @@
 
   /* CSS do Box 1 */
     .box_1{
+      padding-top: 10vh;
       display: flex;
       height: 70vh;
       background-image: url(Imagens/box1.png);
@@ -323,20 +324,17 @@
 
     @media (max-width: 590px) {
       .box_1-1 {
-        width: 70vw;
+        width: 60vw;
       }
     }
 
-    @media (max-width: 422px) {
+    /* --------- Mudar imagem de background -------------- */
+    @media (max-width: 565px) {
+      .box_1 {
+        background-image: url(Imagens/box1_2.png);
+      }
       .box_1-1 {
         width: 100vw;
-      }
-    }
-
-    @media (max-width: 373px) {
-      .box_1-1 {
-        padding: 10px;
-        padding-top: 30px;
       }
     }
 
@@ -348,15 +346,15 @@
     }
 
     @media (max-width: 315px) {
-      /* .ebox_1-2 {
-        padding-bottom: 5px;
-      } */
       .box_1-1 {
         padding-left: 0px;
       }
     }
 
-    @media (max-width: 280px) {
+    @media (max-width: 295px) {
+      .box_1-1 {
+        padding: 10px;
+      }
       .dama {
         font-size: 70px;
       }
@@ -365,15 +363,17 @@
       }
     }
 
-
-    /* --------- Mudar imagem de background -------------- */
-    @media (max-width: 565px) {
-      .box_1 {
-        background-image: url(Imagens/box1_2.png);
+    @media (max-width: 265px) {
+      .box_1-1 {
+        padding-left: 5px;
       }
     }
 
-
+    @media (max-width: 255px) {
+      .box_1-1 {
+        padding-left: 0px;
+      }
+    }
 
   /* CSS do Box 2 */
 
@@ -407,7 +407,7 @@
     -webkit-text-fill-color: transparent;
     font-size: 19px;
     text-align: start;
-    padding: 3px;
+    padding: 5px;
   }
 
   .box_2-2 {
